@@ -98,7 +98,7 @@
           <a class="nav-icon position-relative text-decoration-none" href="cart.html">
             <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
             <span
-              class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+              class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark cart-number">7</span>
           </a>
         </div>
       </div>
@@ -241,7 +241,7 @@
                 <i class="fa fa-star text-warning"></i>
                 <i class="fa fa-star text-warning"></i>
                 <i class="fa fa-star text-secondary"></i>
-                <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
+                <span class="list-inline-item text-dark">Rating 4.8</span>
               </p>
               <ul class="list-inline">
                 <li class="list-inline-item">
@@ -276,7 +276,7 @@
                 <li>Excepteur sint</li>
               </ul>
 
-              <form action="" method="GET">
+              <form id="myForm" action="" method="GET" onsubmit="return false">
                 <input type="hidden" name="product-title" value="Activewear">
                 <div class="row">
                   <div class="col-auto">
@@ -337,12 +337,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -367,7 +363,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$20.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -378,12 +377,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -408,7 +403,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$25.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -419,12 +417,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_10.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -449,7 +443,10 @@
                   <i class="text-warning fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$45.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -460,12 +457,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -490,7 +483,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$60.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -501,12 +497,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -531,7 +523,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$80.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -542,12 +537,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -572,7 +563,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$110.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -583,12 +577,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_10.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -613,7 +603,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$125.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -624,12 +617,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -654,7 +643,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$160.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -665,12 +657,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -695,7 +683,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$180.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -706,12 +697,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -736,7 +723,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$220.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -747,12 +737,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_10.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -777,7 +763,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$250.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -788,12 +777,8 @@
               <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
               <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                 <ul class="list-unstyled">
-                  <li><a class="btn btn-danger text-white" href="shop-single.html"><i class="far fa-heart"></i></a>
-                  </li>
                   <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a>
                   </li>
-                  <li><a class="btn btn-danger text-white mt-2" href="shop-single.html"><i
-                        class="fas fa-cart-plus"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -818,7 +803,10 @@
                   <i class="text-muted fa fa-star"></i>
                 </li>
               </ul>
-              <p class="text-center mb-0">$300.00</p>
+              <div class="d-flex">
+                <p class="w-50 cart-price">$250.00</p>
+                <button class="btn btn-danger add-cart w-50">Add to Cart</button>
+              </div>
             </div>
           </div>
         </div>
@@ -971,6 +959,16 @@
   </script>
   <!-- End Slider Script -->
 
+  <script>
+    var myForm = document.getElementById('myForm')
+    myForm.addEventListener('submit', function () {
+      var title = myForm.elements['product-title'].value
+      var size = myForm.elements['product-size'].value
+      var quanity = myForm.elements['product-quanity'].value
+      var type = myForm.elements['product-type'].value
+      addItemToCart(title, size, quanity)
+    })
+  </script>
 </body>
 
 </html>

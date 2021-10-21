@@ -144,9 +144,6 @@ ul,ol {
 .shopping-summery tbody .action a:hover{
 	color:#dc3545;
 }
-.shopping-cart .total-amount{
-	margin-top:50px;
-}
 .shopping-cart .total-amount .left{}
 .shopping-cart .total-amount .left .coupon{}
 .shopping-cart .total-amount .left .coupon form{}
@@ -239,13 +236,6 @@ ul,ol {
 	font-weight: 400;
 	color: #333;
 	margin-bottom: 12px;
-}
-.shopping-cart .total-amount .right ul li.last {
-	padding-top: 12px;
-	border-top: 1px solid #c8c8c8;
-	color: #333;
-	font-size: 15px;
-	font-weight: 400;
 }
 .shopping-cart .total-amount .right ul li span{
 	display:inline-block;

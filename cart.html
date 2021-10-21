@@ -94,7 +94,7 @@
           <a class="nav-icon position-relative text-decoration-none" href="cart.html">
             <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
             <span
-              class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+              class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark cart-number">7</span>
           </a>
         </div>
       </div>
@@ -139,19 +139,18 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr class="item-row">
                 <td class="image" data-title="No"><img src="https://via.placeholder.com/100x100" alt="#"></td>
                 <td class="product-des" data-title="Description">
                   <p class="product-name"><a href="#">Women Dress</a></p>
                   <p class="product-des">Maboriosam in a tonto nesciung eget distingy magndapibus.</p>
                 </td>
-                <td class="price" data-title="Price"><span>$110.00 </span></td>
+                <td class="price" data-title="Price"><span class="item-price">$110</span></td>
                 <td class="qty" data-title="Qty">
                   <!-- Input Order -->
                   <div class="input-group">
                     <div class="button minus">
-                      <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus"
-                        data-field="quant[1]">
+                      <button type="button" class="btn btn-primary btn-number" data-type="minus" data-field="quant[1]">
                         <i class="ti-minus"></i>
                       </button>
                     </div>
@@ -164,27 +163,26 @@
                   </div>
                   <!--/ End Input Order -->
                 </td>
-                <td class="total-amount" data-title="Total"><span>$220.88</span></td>
-                <td class="action" data-title="Remove"><a href="#" class="btn"><i class="ti-trash remove-icon"></i></a>
+                <td class="total-amount" data-title="Total"><span class="item-total">$220.88</span></td>
+                <td class="action" data-title="Remove"><button class="btn btn-danger remove-item">Delete</button>
                 </td>
               </tr>
-              <tr>
+              <tr class="item-row">
                 <td class="image" data-title="No"><img src="https://via.placeholder.com/100x100" alt="#"></td>
                 <td class="product-des" data-title="Description">
-                  <p class="product-name"><a href="#">Women Dress</a></p>
+                  <p class="product-name"><a href="#">Man Dress</a></p>
                   <p class="product-des">Maboriosam in a tonto nesciung eget distingy magndapibus.</p>
                 </td>
-                <td class="price" data-title="Price"><span>$110.00 </span></td>
+                <td class="price" data-title="Price"><span class="item-price">$250</span></td>
                 <td class="qty" data-title="Qty">
                   <!-- Input Order -->
                   <div class="input-group">
                     <div class="button minus">
-                      <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus"
-                        data-field="quant[2]">
+                      <button type="button" class="btn btn-primary btn-number" data-type="minus" data-field="quant[2]">
                         <i class="ti-minus"></i>
                       </button>
                     </div>
-                    <input type="text" name="quant[2]" class="input-number" data-min="1" data-max="100" value="2">
+                    <input type="text" name="quant[2]" class="input-number" data-min="1" data-max="100" value="1">
                     <div class="button plus">
                       <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[2]">
                         <i class="ti-plus"></i>
@@ -193,27 +191,26 @@
                   </div>
                   <!--/ End Input Order -->
                 </td>
-                <td class="total-amount" data-title="Total"><span>$220.88</span></td>
-                <td class="action" data-title="Remove"><a href="#" class="btn"><i class="ti-trash remove-icon"></i></a>
+                <td class="total-amount" data-title="Total"><span class="item-total">$220.88</span></td>
+                <td class="action" data-title="Remove"><button class="btn btn-danger remove-item">Delete</button>
                 </td>
               </tr>
-              <tr>
+              <tr class="item-row">
                 <td class="image" data-title="No"><img src="https://via.placeholder.com/100x100" alt="#"></td>
                 <td class="product-des" data-title="Description">
-                  <p class="product-name"><a href="#">Women Dress</a></p>
+                  <p class="product-name"><a href="#">Women Superman</a></p>
                   <p class="product-des">Maboriosam in a tonto nesciung eget distingy magndapibus.</p>
                 </td>
-                <td class="price" data-title="Price"><span>$110.00 </span></td>
+                <td class="price" data-title="Price"><span class="item-price">$60</span></td>
                 <td class="qty" data-title="Qty">
                   <!-- Input Order -->
                   <div class="input-group">
                     <div class="button minus">
-                      <button type="button" class="btn btn-primary btn-number" disabled="disabled" data-type="minus"
-                        data-field="quant[3]">
+                      <button type="button" class="btn btn-primary btn-number" data-type="minus" data-field="quant[3]">
                         <i class="ti-minus"></i>
                       </button>
                     </div>
-                    <input type="text" name="quant[3]" class="input-number" data-min="1" data-max="100" value="3">
+                    <input type="text" name="quant[3]" class="input-number" data-min="1" data-max="100" value="1">
                     <div class="button plus">
                       <button type="button" class="btn btn-primary btn-number" data-type="plus" data-field="quant[3]">
                         <i class="ti-plus"></i>
@@ -222,8 +219,8 @@
                   </div>
                   <!--/ End Input Order -->
                 </td>
-                <td class="total-amount" data-title="Total"><span>$220.88</span></td>
-                <td class="action" data-title="Remove"><a href="#" class="btn"><i class="ti-trash remove-icon"></i></a>
+                <td class="total-amount" data-title="Total"><span class="item-total">$220.88</span></td>
+                <td class="action" data-title="Remove"><button class="btn btn-danger remove-item">Delete</button>
                 </td>
               </tr>
             </tbody>
@@ -236,23 +233,11 @@
           <!-- Total Amount -->
           <div class="total-amount">
             <div class="row">
-              <div class="col-lg-8 col-md-5 col-12">
-                <div class="left">
-                  <div class="coupon">
-                    <form action="#" target="_blank">
-                      <input name="Coupon" placeholder="Enter Your Coupon">
-                      <button class="btn">Apply</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-7 col-12">
+              <div class="col-lg-7 col-md-5 col-12"></div>
+              <div class="col-lg-5 col-md-7 col-12">
                 <div class="right">
                   <ul>
-                    <li>Cart Subtotal<span>$330.00</span></li>
-                    <li>Shipping<span>Free</span></li>
-                    <li>You Save<span>$20.00</span></li>
-                    <li class="last">You Pay<span>$310.00</span></li>
+                    <li class="last">You Pay<span class="price-total">$310</span></li>
                   </ul>
                   <div class="button5">
                     <a href="checkout.html" class="btn">Checkout</a>
@@ -441,6 +426,7 @@
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/templatemo.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/store.js"></script>
   <!-- End Script -->
 </body>
 
